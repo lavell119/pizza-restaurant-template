@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.title-div {
+	height: 30vh;
+	width: 100%;
+    background: #121618;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+
+}
+
+.sec-1 {
+    height: 45vh;
+	width: 100%;
+    background-image: url("images/wood-background.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.food-item-description {
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.sec-1 img {
+    width: 200px;
+    height: auto;
+}
+
+.sec-2 {
+    text-align: center;
+    padding: 0px 30px 0px 30px;
+    height: 150vh;
+	width: 100%;
+    background: orange;
+    background-image: url("images/pizza-background.png");
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec-2-snapshot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+
+}
+
+.sec-3 {
+    height: 380vh;
+	width: 100%;
+    background: #121618;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.section-3-snippet {
+    color: white;
+}
+
+.sales-image-title {
+    font-size: 19px;
+    color: white;
+}
+
+.sales-image-text {
+    font-size: 17px;
+    color: white;
+
+}
+
+.sales-image-price {
+    font-size: 25px;
+    color: white;
+
+}
