@@ -156,3 +156,47 @@
     align-items: flex-end;   
     padding-top: 12px; 
 }
+
+.sec-6 {
+    background: #121618;
+    height: 300vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-6-content {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+
+
+
+.menu-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 18px;
+    padding: 20px 0 65px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-nav div {
+    cursor: pointer;
+    
+}
+
+.selected {
+    color: rgba(255, 255, 0, 0.884);
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menu-items img {
+    width: 100px;
+    height: auto;
+}
