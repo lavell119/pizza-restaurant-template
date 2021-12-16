@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    line-height: 1.5;
 }
 
 
@@ -112,4 +113,31 @@
 .sales-snippet img {
     width: 290px;
     height: auto;
+}
+
+.sec-5 {
+    background-image: url("images/pizza-background.png");
+    height: 210vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sec-5-content {
+    height: 85%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.test-img {
+    border-radius: 50%;
+    height: 45px;
+}
+
+.testmonial-footer {
+    display: flex;
 }
