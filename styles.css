@@ -60,26 +60,34 @@
 
 }
 
+.sec-title {
+    font-size: 28px;
+    color: white;
+}
+
 .sec-3 {
-    height: 380vh;
+    height: 310vh;
 	width: 100%;
     background: #121618;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
-.section-3-snippet {
-    color: white;
-}
 
 .sales-image-title {
     font-size: 19px;
     color: white;
 }
+
+.sales-image-title:hover {
+    color: rgba(255, 255, 0, 0.884);
+    cursor: pointer;
+}
+
 
 .sales-image-text {
     font-size: 17px;
@@ -91,4 +99,17 @@
     font-size: 25px;
     color: white;
 
+}
+
+.sales-snippet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 440px;
+    justify-content: space-between;
+}
+
+.sales-snippet img {
+    width: 290px;
+    height: auto;
 }
