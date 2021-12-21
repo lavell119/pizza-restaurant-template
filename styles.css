@@ -21,6 +21,7 @@
 #menu {
     position: absolute;
     right: 25px;
+    width: 30px;
 
 }
 
@@ -196,6 +197,10 @@
     
 }
 
+.menu-nav div:hover {
+    color: rgba(255, 255, 0, 0.884);   
+}
+
 .selected {
     color: rgba(255, 255, 0, 0.884);
 }
@@ -233,7 +238,7 @@
 }
 
 .section-6 {
-    height: 55vh;
+    height: 64vh;
     width: 100%;
     background-image: url("images/pizza-background.png");
     display: flex;
@@ -242,16 +247,74 @@
 }
 
 .sec-6-content {
-    background: red;
     width: 80%;
-    height: 80%;
+    height: 75%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     text-align: center;
 }
 
 .sec-6-content image {
     padding: 20px 0 20px 0;
+}
+
+.sec-6-title {
+    font-size: 32px;
+    line-height: 1;
+    color: black;
+}
+
+.mini-title {
+    font-size: 14px;
+}
+
+.footer1 {
+    background-color: #121618;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.footer-1-content {
+    height: 180px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+   
+}
+
+.sec-title {
+    font-size: 36px;
+    line-height: 1;
+}
+
+.footer-1-content input {
+    height: 50px;
+    width: 300px;
+    position: relative;
+    top: 1px;
+    background: #121618;
+    border: 1px solid grey;
+  
+}
+
+.footer-1-content button {
+    margin: 0px;
+    height: 50px;
+    width: 60px;
+    background: grey;
+    border: none;
+}
+
+.input {
+    margin: 0px;
+    font-size: 0;
+
 }
