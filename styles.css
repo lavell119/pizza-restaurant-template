@@ -122,7 +122,7 @@
     height: auto;
 }
 
-.sec-5 {
+.sec-4 {
     background-image: url("images/pizza-background.png");
     height: 250vh;
     display: flex;
@@ -131,7 +131,7 @@
 
 }
 
-.sec-5-content {
+.sec-4-content {
     height: 85%;
     width: 70%;
     display: flex;
@@ -164,19 +164,20 @@
     padding-top: 12px; 
 }
 
-.sec-6 {
+.sec-5 {
     background: #121618;
-    height: 300vh;
+    height: 290vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.sec-6-content {
+.sec-5-content {
     width: 90%;
     height: 90%;
     text-align: center;
-    background: red;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -203,8 +204,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: white;
-    padding: 10px;
+    gap: 15px;
     margin-bottom: 50px;
+
 }
 
 .menu-item {
@@ -228,4 +230,28 @@
     font-size: 24px;
     font-weight: bold;
     margin-top: 11px;
+}
+
+.section-6 {
+    height: 55vh;
+    width: 100%;
+    background-image: url("images/pizza-background.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-6-content {
+    background: red;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec-6-content image {
+    padding: 20px 0 20px 0;
 }
