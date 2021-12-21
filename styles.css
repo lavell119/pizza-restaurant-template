@@ -18,6 +18,12 @@
 
 }
 
+#menu {
+    position: absolute;
+    right: 25px;
+
+}
+
 .sec-1 {
     height: 45vh;
 	width: 100%;
@@ -58,6 +64,7 @@
     justify-content: space-between;
     flex-direction: column;
     height: 200px;
+   
 
 }
 
@@ -166,9 +173,10 @@
 }
 
 .sec-6-content {
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     text-align: center;
+    background: red;
 }
 
 
@@ -194,9 +202,30 @@
 .menu-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
 }
 
+.menu-item {
+    margin-bottom: 50px;
+
+}
+
+.menu-item h4 {
+    font-size: 18px;
+    margin-bottom: 11px;
+
+
+}
 .menu-items img {
-    width: 100px;
+    width: 127px;
     height: auto;
+    margin-bottom: 20px;
+}
+
+.menu-item-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 11px;
 }
