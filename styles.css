@@ -297,24 +297,31 @@
 
 .footer-1-content input {
     height: 50px;
-    width: 300px;
+    width: 270px;
     position: relative;
     top: 1px;
     background: #121618;
-    border: 1px solid grey;
+    border: 1px solid #1D2326;
   
 }
 
 .footer-1-content button {
     margin: 0px;
     height: 50px;
-    width: 60px;
-    background: grey;
+    width: 90px;
+    background: #1D2326;
     border: none;
+    color: white;
 }
 
 .input {
-    margin: 0px;
+    
     font-size: 0;
+    padding-left: 30px;
+    
 
 }
+
+.input::placeholder {
+    color: white;
+  }
