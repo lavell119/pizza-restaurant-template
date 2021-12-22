@@ -276,6 +276,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px solid #1D2326;
   
 }
 
@@ -293,6 +294,8 @@
 .sec-title {
     font-size: 36px;
     line-height: 1;
+    color: rgb(223, 222, 222);
+    
 }
 
 .footer-1-content input {
@@ -302,7 +305,15 @@
     top: 1px;
     background: #121618;
     border: 1px solid #1D2326;
-  
+    padding-left: 20px;
+    font-size: 15px;
+    color: rgb(223, 222, 222);
+
+
+}
+
+.footer-1-content input:active {
+    outline: none;
 }
 
 .footer-1-content button {
@@ -311,13 +322,13 @@
     width: 90px;
     background: #1D2326;
     border: none;
-    color: white;
+    color: rgb(223, 222, 222);
 }
 
 .input {
     
     font-size: 0;
-    padding-left: 30px;
+    padding-left: 20px;
     
 
 }
@@ -325,3 +336,72 @@
 .input::placeholder {
     color: white;
   }
+
+.footer2 {
+    background: #121618;;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer2-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+}
+
+.footer2-top-content {
+    height: 50%;
+}
+
+.footer2-bottom-content {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+} 
+
+.phone-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+.footer2-menu {
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.phone {
+    color: white;
+}
+
+.time {
+    color: #677872;
+    font-size: 14px;
+}
+
+.copyright {
+    color: #677872;
+}
+
+.footer2-menu div {
+    align-self: center;
+}
+
+.footer2-menu div:hover {
+    color: rgba(255, 255, 0, 0.884);
+    cursor: pointer;   
